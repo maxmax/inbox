@@ -1,0 +1,10 @@
+.items > .item{
+  text-align: left;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.items > .item:nth-child(2n){
+  text-align: right;
+}
